@@ -1,0 +1,332 @@
+@media only screen and (max-width: 1399px) {
+  .participants_dv ol li {
+    padding: 0.3rem 0;
+    font-size: 0.9rem;
+  }
+  .Testimonials_content_inner p {
+    font-size: 15px;
+    line-height: 1.3rem;
+    text-align: justify;
+  }
+  .Testimonials_content_inner {
+    height: 484px;
+  }
+  #back-top {
+    bottom: 26%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #hero.container-fluid,
+  #hero.container-fluid .row {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .desktop,
+  .overview__section:after,
+  .patten8 {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .dsu-intro {
+    position: relative;
+    width: 100%;
+  }
+  .dsu-addmission .hr,
+  .dsu-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn_submit {
+    background-color: var(--bg-red);
+  }
+  .dsu-addmission {
+    margin-top: 10px;
+    padding-top: 0;
+    text-align: center;
+  }
+  .bc-img01 {
+    background-image: none;
+    background-attachment: initial;
+    height: auto;
+  }
+  #back-top {
+    display: none !important;
+  }
+  .dsu-addmission .bannerContent h1 {
+    font-size: 4rem;
+  }
+  .applyBox {
+    margin-top: 0;
+    width: 100%;
+  }
+  .thumb__pdm .image-after:after {
+    bottom: -14px;
+    display: none;
+  }
+  .learners__section .learners_relative .image-box:after {
+    bottom: auto;
+    top: -1rem;
+  }
+  .dsu-addmission .content_bnr-flex span {
+    text-align: left;
+  }
+  .dsu-addmission .content_bnr-flex {
+    margin: 0 auto;
+  }
+  #students-slider.owl-theme .owl-dots .owl-dot span {
+    border-color: #fff;
+  }
+  #students-slider.owl-theme .owl-dots .owl-dot.active span {
+    background: #fff;
+    border: 1px solid #fff;
+  }
+  .header .navbar-light .nav-item .nav-link {
+    padding: 1rem 0;
+    border-bottom: 1px solid #2a2a2a;
+    border-right: 0;
+  }
+  .header .navbar-nav {
+    margin-top: 1rem;
+  }
+  p.text-white.bg-blue.d-inline-block.scol.p-2 {
+    width: 100%;
+    line-height: 1.3;
+  }
+  .learners_relative {
+    padding-top: 0 !important;
+  }
+}
+@media only screen and (max-width: 736px) {
+  .applyBox,
+  .container {
+    max-width: 100%;
+  }
+  .thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv {
+    width: 100%;
+  }
+  .mx-5 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .participants_dv {
+    min-height: auto;
+  }
+  .offset-2 {
+    margin-left: 0;
+  }
+  .position-relative.zIndex2.d-flex.discountBox_ {
+    flex-wrap: wrap;
+  }
+  p.text-white.bg-blue.d-inline-block.scol.p-2.font-weight-600.my-3.fs-5 {
+    width: 660px;
+    margin: auto;
+    margin-top: 20px !important;
+    text-align: center;
+  }
+  .discountBox_ span {
+    width: 100%;
+    background: #351a6e;
+    padding: 10px;
+    font-size: 27px !important;
+  }
+  .discountBox_ p {
+    width: 100%;
+    padding: 14px 12px;
+    font-size: 17px !important;
+    text-align: center;
+  }
+  .facultyBox {
+    background-color: var(--bg-blue);
+    top: -10px;
+    width: 100%;
+  }
+  .about__section .thumb__pdm .image-1 {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .about__listing ul li i,
+  .eligibility__section .elig-item:before {
+    display: none;
+  }
+  .about__listing ul li {
+    padding-left: 0;
+    border-bottom: 1px solid var(--bg-blue);
+  }
+  .counselling__item .counselling__dv {
+    padding: 0;
+    background-color: transparent;
+    height: auto;
+  }
+  .content_ab-relative {
+    position: relative;
+    top: -2rem;
+    padding: 1rem !important;
+    height: auto;
+  }
+  .faculty__section:after {
+    height: 70%;
+  }
+  .eligibility__section .elig-item {
+    text-align: center;
+    padding-left: 1rem;
+    border: 1px solid var(--bg-blue);
+  }
+  .eligibility__section .elig-item .elig__icon {
+    margin: 0 auto;
+  }
+  .carousel .slick-dots li {
+    width: 15px;
+    border-radius: 100%;
+    height: 15px;
+    margin: 3px;
+    background: 0 0;
+    border: 1px solid var(--bg-blue);
+  }
+  .carousel .slick-dots li.slick-active {
+    background: var(--bg-blue);
+  }
+  .content_ab-relative h2 {
+    font-size: 20px;
+  }
+  .content_ab-relative h2 > strong {
+    font-size: 1.5rem;
+  }
+  .content_ab-relative p {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 667px) {
+  .sideNavi,
+  .sideNavi-item {
+    width: 100%;
+  }
+  .sideNavi {
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    right: auto;
+    left: 0;
+    z-index: 5;
+    -moz-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+  .about__listing {
+    padding: 1.5rem;
+    text-align: center;
+    left: 0;
+  }
+  .sideNavi a {
+    display: block;
+    text-align: center;
+    padding: 12px 2px;
+    background-color: var(--bg-blue);
+    color: #fff;
+    border: 0;
+  }
+  .footer {
+    height: 100px;
+    font-size: 12px;
+  }
+  .sideNavi .sideNavi-flex {
+    display: flex;
+  }
+  .video-button {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    line-height: 42px;
+  }
+
+  .content_ab-relative
+  {
+        margin-top: 40px !important;
+  }
+  .header .amba__ab
+  {
+    visibility: hidden !important;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .content_ab-relative,
+  .dsu-form {
+    width: 100%;
+  }
+  .example5 h3,
+  .faculty__section {
+    text-align: center;
+  }
+  .dsu-form {
+    border: 1px solid #000;
+  }
+  .fsize18 {
+    font-size: 14px;
+  }
+  #header.sticky .header-absolute .logo-right img,
+  .logo-right img {
+    width: 120px;
+  }
+  .example5,
+  .example5 h3 {
+    line-height: 30px;
+  }
+  .example5 {
+    background-color: var(--bg-orange) !important;
+    height: auto;
+    padding: 0.2rem;
+  }
+  .example5 h3 {
+    animation: none;
+    position: relative;
+    line-height: 1.5;
+  }
+  .example5 h3 .bg-orange {
+    background-color: transparent !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 24px;
+  }
+  .about__listing ul li,
+  p,
+  ul.listing li {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .fsize28 {
+    font-size: 22px;
+  }
+  .thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv h3 {
+    font-size: 3em;
+  }
+  .thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv p {
+    font-size: 16px;
+  }
+  .thankyou-sec .hero-thankyou .bc-img01 {
+    height: 415px;
+  }
+  .fs-5 {
+    font-size: 1rem !important;
+  }
+  .header .navbar-expand-lg .navbar-brand {
+    width: 200px;
+  }
+  .programme__section .programme-item {
+    height: auto;
+  }
+}
