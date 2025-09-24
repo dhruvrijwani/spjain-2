@@ -286,7 +286,7 @@ li {
 .bc-img01 {
 	background-image: url(../images/329A0791_Cover_Photo.jpg);
 	background-size: 100%;
-	background-position: center center;
+	background-position: 50% 70%;
 	background-repeat: no-repeat;
 	    min-height: 77.5vh;
 }
