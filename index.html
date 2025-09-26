@@ -79,6 +79,15 @@
         border-radius: 999px;
         animation: flash-text 1s infinite;
       }
+      
+      @keyframes scroll-left {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
 
     </style>
   </head>
@@ -122,9 +131,17 @@
         </nav>
       </div>
     </header>
-    <div style="background-color: #f58220;">
-      <p style="padding:10px 0px; text-align: center;color:white;font-size: 18px;">Admissions open for February 2026 | Batch 27 | Apply now</p>
+    <!-- <div style="background-color: #f58220; overflow: hidden; white-space: nowrap;">
+      <p style="display: inline-block; padding: 10px 0; color: white; font-size: 18px; animation: scroll-left 15s linear infinite;">
+        Admission open for 27th Batch starting February 2026 | Apply now
+      </p>
+    </div> -->
+    <div style="background-color: #f58220; padding:12px 0 10px 0;">
+      <marquee behavior="scroll" direction="left" scrollamount="8" style="color:white; font-size:18px;">
+        Admission open for 27th Batch starting February 2026 | <B>Apply now</B>
+      </marquee>
     </div>
+
     <div class="mobile">
       <img class="img-fluid" src="images/329A0791_Cover_Photo.jpg" alt="">
     </div>
@@ -407,7 +424,7 @@
               <ol class="m">
                 <li>Full payment of Rs. 1,50,000 + GST</li>
                 <li>Term-wise: Rs. 50,000 + GST per term (x 3 terms)</li>
-                <li>Instalments: Six equal instalments of Rs. 25,000 +GST before start of every contact. First instalment required for admission confirmation. Post-dates cheques for the remaining 5 instalments to be submitted on reporting day.</li>
+                <li>Instalments: Six equal instalments of Rs. 25,000 +GST before start of every contact. First instalment required for admission confirmation. Post-dated cheques for the remaining 5 instalments to be submitted on reporting day.</li>
 <p class="mt-2"><b>Discount in Fee : For two or more persons joining from the same NGO, a concession of Rs. 10,000/- per candidate will be provided.</b></p>
               </ol>
             </div>
